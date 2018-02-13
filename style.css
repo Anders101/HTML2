@@ -1,0 +1,279 @@
+*{
+	margin:  			0;
+	padding:			0;
+}
+
+body{
+	font-family: 		'Montserrat', sans-serif;
+}
+
+.wrapper{
+	width:				1366px;
+	margin:				0 auto;
+}
+
+.header{
+	background:			url("img/slider-img.jpg")no-repeat;
+}
+
+.logo{
+	margin-left:		98px;
+	margin-top:			64px;
+}
+
+.menu{
+	display:			inline-block;
+	float:				right;
+	margin-right:		167px;
+	margin-top:			64px;
+}
+
+.menu a{
+	text-decoration:	none;
+	font-size:			14px;
+	font-weight:		light;
+	color:				#8c8c8c;
+	padding:		    10px 15px;
+}
+
+.menu a:hover{
+	text-decoration:	none;
+	font-size:			14px;
+	font-weight:		bold;
+	border-bottom:		3px solid #212121;
+	color:				#212121;
+	padding:		    10px 14px;
+}
+
+.text{
+	width:				500px;
+	margin-left:		98px;
+	margin-top:			287px;
+}
+
+.text h3{
+	font-size:			18px;
+	font-weight:		bold;
+	color:				#43a047;
+	text-transform:		uppercase;
+}
+
+.text h1{
+	margin-top:			22px;
+	font-size:			62px;
+	font-weight:		100;
+	color:				#212121;
+	text-transform:		uppercase;
+}
+
+.text p{
+	margin-top:			34px;
+	font-size:			14px;
+	font-weight:		light;
+	color:				#6c6c6c;
+}
+
+.button-header{
+	margin-top:			32px;
+	height:				45px;
+	width:				212px;
+	background:			#ffffff;
+	border-radius:		22px;
+	text-align:			center;
+	cursor:				pointer;
+}
+
+.button-header a{
+	display:			inline-block;
+	text-decoration:	none;
+	font-size:			18px;
+	font-weight:		bold;
+	color:				#212121;
+	margin-top:			10px;
+}
+
+.button-header:hover{
+	margin-top:			32px;
+	height:				45px;
+	width:				212px;
+	background:			#ffffff url("img/arrow.png")no-repeat 174px 16px;
+	border-radius:		22px;
+	text-align:			center;
+	cursor:				pointer;
+}
+
+.navi{
+	display:			inline-block;
+	margin-top:			100px;
+	margin-left:		622px;
+	cursor:				pointer;
+}
+.navi:hover{
+	margin-top:			100px;
+	margin-left:		622px;
+	background:			url("img/active.png")no-repeat 50% 0;
+	cursor:				pointer;
+}
+
+.content1{
+	height:				500px;
+	margin-bottom:		100px;
+}
+
+.menu-content1{
+	float:				left;
+	margin-top:			122px;
+	margin-left:		100px;
+	margin-bottom:		50px;
+}
+
+.menu-content1 a{
+	text-decoration:	none;
+	font-size:			36px;
+	font-weight:		100;
+	padding:			0 15px 20px 20px;
+	color:				#6c6c6c;
+	border-bottom:		1px solid #6c6c6c;
+}
+
+.menu-content1 a:hover{
+	text-decoration:	none;
+	font-size:			36px;
+	font-weight:		bold;
+	padding:			0 15px 20px 20px;
+	color:				#212121;
+	border-bottom:		3px solid #212121;
+}
+
+.button-content1{
+	float:				right;
+	margin-right:		118px;
+	margin-top:			140px;
+	width:				150px;
+}
+
+.button-content1 a{
+	display:			inline-block;
+	margin-left:		5px;
+	margin-top:			10px;
+	text-decoration:	none;
+	font-size:			18px;
+	font-weight:		bold;
+	text-transform:		uppercase;
+	color:				#212121;
+}
+
+.button-content1 :hover{
+	width:				150px;	
+	background:			#ffffff url("img/arrow.png")no-repeat 100% 50%;
+}
+
+.products1{
+	clear:				both;
+	margin:		        0 70px 0 70px;
+}
+
+.products1 img{
+	margin:				15px;
+}
+
+.products1 img:hover{
+	cursor:				pointer;
+	background:			url("img/back.png")no-repeat 0 0;
+}
+
+.block1{
+	float:				left;
+	height:				683px;
+	width:				683px;
+	background:			url("img/promo-img1.jpg")no-repeat 0 0;
+}
+
+.block2{
+	float:				right;
+	height:				683px;
+	width:				683px;
+	background:			url("img/promo-img.jpg")no-repeat 0 0;
+}
+
+.block-text{
+	margin-top:			227px;
+	margin-left:		50px;
+	width:				379px;
+}
+
+.exclusive{
+	color:				#2b8ee5;
+	font-size:			18px;
+	font-weight:		bold;
+	text-transform:		uppercase;
+	margin-bottom:		20px;
+}
+
+.label{
+	font-size:			36px;
+	font-weight:		bold;
+	color:				#212121;
+	margin-bottom:		25px;
+}
+
+.block-text p{
+	font-size:			14px;
+	font-weight:		light;
+	margin-bottom:		35px;
+}
+
+.content3{
+	clear:				both;
+	padding-top:		120px;
+	padding-left:		70px;
+	padding-right:		70px;
+	border:				1px solid red;
+}
+
+.content3 h2{
+	float:				left;
+	font-size:			36px;
+	font-weight:		bold;
+	margin-bottom:		70px;
+}
+
+.content3 .button-header{
+	float:				right;
+	margin:				0;
+	text-transform:		uppercase;
+}
+
+.content3 .button-header a{
+	font-size:			18px;
+}
+
+.content3-products{
+	clear:				both;
+	margin-bottom:		120px;
+}
+
+.content3-products img{
+	padding:			15px;
+}
+
+.content4{
+	background:			url("img/slider.jpg")no-repeat 0 0;
+}
+
+.block-text4{
+	margin-top:			200px;
+	margin-left:		200px;
+	width:				380px;
+	border:				1px solid red;
+}
+
+.hotdeal{
+	margin-top:			200px;
+}
+
+.desription{
+	font-size:			14px;
+	font-weight:		light;
+	margin-bottom:		35px;
+}
